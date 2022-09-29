@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Feedback Form</h1>
+    </header>
+    <form method="get" action=" ./thanks.html">
+        <fieldset>
+            <legend>User information</legend>
+            <div>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <br>
+                <input type="text" name="url" id="url">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Reason for contact</legend>
+            <select name="" id="Reasion">
+                <option value="career opportunity">Career Opportunity</option>
+                <option value="business proposal">Business Proposal</option>
+                <option value="general query">General Query</option>
+                <option value="complaint">Complaint</option>
+            </select>
+            <br>
+            <br>
+            <legend>Addional information:</legend>
+            <br>
+            <textarea name="bigtext" id="bigtext" cols="30" rows="10" style="height: 133px; width: 232px;"></textarea>
+        </fieldset>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
